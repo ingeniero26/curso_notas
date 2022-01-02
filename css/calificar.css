@@ -1,0 +1,128 @@
+.combo {
+  padding: 60px;
+  width: 100%;
+}
+
+.contener-notas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  width: 80%;
+  background-color: dodgerblue;
+  margin: 0 auto;
+  border-radius: 12px;
+  border: gray;
+}
+
+.contener-notas .datos-estudiante {
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contener-notas .datos-estudiante .foto {
+  background: linear-gradient(160deg, #fff, #2aeaff);
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.contener-notas .datos-estudiante .foto img {
+  width: 100%;
+  height: 100%;
+}
+
+.contener-notas .datos-estudiante .datos-basicos {
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-flex: 3;
+      -ms-flex-positive: 3;
+          flex-grow: 3;
+  background-color: gainsboro;
+}
+
+.contener-notas .datos-estudiante .datos-basicos h3 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #fff;
+  padding: 6px;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.contener-notas .datos-estudiante .datos-basicos label {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.contener-notas .datos-estudiante .datos-basicos .lista-calificaciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  width: 100%;
+  border: 1px solid #cecece;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  margin-top: 25px;
+}
+
+.contener-notas .datos-estudiante .datos-basicos .lista-calificaciones .reg-notas {
+  -webkit-box-flex: 3;
+      -ms-flex-positive: 3;
+          flex-grow: 3;
+}
+
+.contener-notas .datos-estudiante .datos-basicos .lista-calificaciones .reg-notas table {
+  width: 100%;
+}
+
+.contener-notas .datos-estudiante .datos-basicos .lista-calificaciones .reg-notas table tr {
+  padding: 0%;
+}
+
+.contener-notas .datos-estudiante .datos-basicos .lista-calificaciones .reg-notas table td {
+  margin: 0px;
+  padding: 1px;
+  border: 1px solid #000;
+}
+
+.contener-notas .datos-estudiante .datos-basicos .lista-calificaciones .nota-def {
+  background: linear-gradient(16deg, #fafeff, #234599);
+  color: #fff;
+  font-size: 4.5em;
+  text-align: center;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  height: 100%;
+  border: 1px solid #000;
+}
+
+.contener-notas .datos-estudiante .datos-basicos .lista-calificaciones .nota-def h3 {
+  background: #123480;
+}
+/*# sourceMappingURL=calificar.css.map */
